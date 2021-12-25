@@ -57,5 +57,8 @@ void draw() {
        Por exemplo, todas as operações realizadas antes do pushMatrix() serão armazenadas em uma pilha(no topo) que armazena resultados de operações matriciais
        (translações, rotações...), ao passo que, se colocarmos outras operações após esse comando, e em seguida dar um popMatrix(), voltamos o sistema ao estado original
        de antes do pushMatrix(). É uma questão de boas práticas de programação e de operações matriciais. 
+       
+       Para este projeto, na verdade, não tem tanto efeito, do ponto de vista de estados, utilizar pushMatrix() e popMatrix(). 
+       Utilizamos apenas para efeito de demonstrar boas práticas de programação gráfica.
     */
 }
