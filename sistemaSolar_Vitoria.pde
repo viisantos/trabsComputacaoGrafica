@@ -52,6 +52,6 @@ void draw() {
     /* Utilizamos batante o pushMatrix() e o popMatrix().
        A importância desses métodos é empilhar operações de matrizes
        a fim de que seja possivel a reversão das mesmas,
-       e o reuso das operações que estão mais abaixo do topo.
+       e o reuso do resultado das operações que estão mais abaixo do topo.
     */
 }
