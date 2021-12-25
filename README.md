@@ -6,7 +6,7 @@ Coletânea de trabalhos de computação Gráfica 2021.2
 
 - Espiral de Arquimedes não interativo : Aqui, temos uma espiral de arquimedes, cuja equação é
 
-  $$r=a+b*{\theta}$$. 
+  r=a+b*theta 
   
 - Referência : https://pt.wikipedia.org/wiki/Espiral_de_Arquimedes
 
