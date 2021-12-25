@@ -5,8 +5,8 @@ Coletânea de trabalhos de computação Gráfica 2021.2
 <img src="https://github.com/viisantos/trabsComputacaoGrafica/blob/main/solTerraLua_funcionando.png" align="left" height="600" width="600">
 
 <br/>
-
+<p>
 - Espiral de Arquimedes não interativo : Aqui, temos uma espiral de arquimedes, cuja equação é r=a+b*theta 
 - Referência : https://pt.wikipedia.org/wiki/Espiral_de_Arquimedes
-
+<p>
 <img src="https://github.com/viisantos/trabsComputacaoGrafica/blob/main/espiral_arquimedes1_funcionando.png" align="left" height="600" width="600">
