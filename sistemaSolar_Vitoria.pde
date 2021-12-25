@@ -24,7 +24,7 @@ void lua(){
 
 void draw() {
     background(bg);
-    translate(width/2, height/2);  //essa linha transere o centro do universo para o centro da tela.
+    translate(width/2, height/2);  //essa linha tranfsere o centro do universo para o centro da tela.
     //line(-width/2, 0, width/2, 0); //traçar uma linha no eixo X
     //line(0,-height/2, 0,height/2); //traçar uma linha no eixo Y
     
