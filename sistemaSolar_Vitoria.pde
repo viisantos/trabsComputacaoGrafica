@@ -50,9 +50,9 @@ void draw() {
     popMatrix();
     
     /* Utilizamos batante o pushMatrix() e o popMatrix().
-       A importância desses métodos é empilhar operações de matrizes
-       a fim de que seja possivel a reversão das mesmas,
-       e o reuso do resultado das operações que estão mais abaixo do topo.
+       A importância desses métodos é empilhar operações de matrizes para armazenar por um tempo o resultado delas
+       e desempilhar essas informações a fim de que seja possivel a reversão das mesmas. Basicamente, oferecer flexibilidade quando se desejar voltar 
+       a um estado anterior do sistema, sem que seja preciso desfazer manualmente tudo o que foi feito até então, tarefa que seria impossível num projeto grande.
        
        Por exemplo, todas as operações realizadas antes do pushMatrix() serão armazenadas em uma pilha(no topo) que armazena resultados de operações matriciais
        (translações, rotações...), ao passo que, se colocarmos outras operações após esse comando, e em seguida dar um popMatrix(), voltamos o sistema ao estado original
