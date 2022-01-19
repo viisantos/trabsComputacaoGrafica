@@ -79,7 +79,7 @@ def timer(i):
 glutInit(sys.argv)
 glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA | GLUT_DEPTH | GLUT_MULTISAMPLE)
 glutInitWindowSize(800,600)
-glutCreateWindow("CILINDRO")
+glutCreateWindow("PRISMA")
 glutDisplayFunc(desenhar_cilindro)
 glEnable(GL_MULTISAMPLE)
 glEnable(GL_DEPTH_TEST)
