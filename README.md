@@ -34,3 +34,5 @@ Coletânea de trabalhos de computação Gráfica 2021.2
 
 - Tronco de pirâmide
 <img src="https://github.com/viisantos/trabsComputacaoGrafica/blob/main/prints_3D_funcionando/tronco_piramide_comentado.png" align="center" height="400" width="400">
+
+p.s : Agradeço aos colegas do curso que disponibilizaram seus repositórios com material de computação gráfica produzido que me auxiliou no desenvolvimento de alguns exemplos 🤝🙃
