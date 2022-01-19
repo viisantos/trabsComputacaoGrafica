@@ -11,7 +11,7 @@ cores = ((1, 0, 0), (1, 1, 0), (0, 1, 0), (0, 1, 1), (0, 0, 1), (1, 0, 1), (0.5,
 def troncoDePiramide():
     raioBaseMaior = 4
     raioBaseMenor = 2
-    qtdVerticesBases = 100
+    qtdVerticesBases = 4
     altura = 4
     pontosBaseMaior = []
     pontosBaseMenor = []
