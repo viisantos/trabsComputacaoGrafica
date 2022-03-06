@@ -55,6 +55,14 @@ Ainda, utilizamos uma textura especial, a “earth-specular”, em um meshPhongM
 
 Aplicamos ainda o componente “OrbitControls” que serve justamente para que consigamos interagir com nosso planetinha utilizando o mouse, arrastando de um lado, de outro… e podendo aplicar zoom.
 
+### Pirâmide utilizando ThreeJS
+<img src="https://user-images.githubusercontent.com/47664639/156946324-77afda37-d0e4-4133-9852-8d03f70795bd.png" align="center" height="400" width="450">
+
+### Prisma utilizando ThreeJS
+<img src="https://user-images.githubusercontent.com/47664639/156946424-ce3b95f6-6bd1-4e28-8321-a68c154246e4.png" align="center" height="400" width="450">
+
+
+
 
 
 p.s : Agradeço aos colegas do curso que disponibilizaram seus repositórios com material de computação gráfica produzido que me auxiliou no desenvolvimento de alguns exemplos 🤝🙃
