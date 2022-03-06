@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Prisma</title>
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+		</style>
+	</head>
+	<body>
+		<script src="js/three.js"></script>
+		<script>
+            //elementos essenciais para a exibição do objeto na tela
+			const scene = new THREE.Scene();
+			const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+			const renderer = new THREE.WebGLRenderer();
+			
+            //definir o tamanho da janela, e adicionar o objeto renderer ao DOM.
+			renderer.setSize( window.innerWidth, window.innerHeight );
+			document.body.appendChild( renderer.domElement );
+			
+			//definir a iluminação
+			var light = new THREE.DirectionalLight(0xffffff);
+			light.position.set(0, 0, 1).normalize();
+			scene.add(light);
+
+            //vamos exibir um prisma, através do CylinderGeometry. Vamos mexer no número de arestas.
+			const geometry = new THREE.CylinderGeometry(radiusTop=1, radiusBottom=1, height=2, radialSegments=6, heightSegments=1, openEnded=false);
+            //definir o material, aqui é definida a cor do prisma.
+			const material = new THREE.MeshPhongMaterial( { color: '#00CED1' } );
+			 
+            const prisma = new THREE.Mesh( geometry, material );
+            //após definido o cubo, adicionamos ele na cena.
+			scene.add( prisma );
+            //posição da câmera
+			camera.position.z = 5;
+
+            //definir a animação
+			function animate() {
+				requestAnimationFrame( animate );
+
+				prisma.rotation.x += 0.01;
+				//cube.rotation.y += 0.01;
+
+				renderer.render( scene, camera );
+			};
+
+			animate();
+		</script>
+	</body>
+</html>
