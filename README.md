@@ -55,11 +55,16 @@ Ainda, utilizamos uma textura especial, a “earth-specular”, em um meshPhongM
 
 Aplicamos ainda o componente “OrbitControls” que serve justamente para que consigamos interagir com nosso planetinha utilizando o mouse, arrastando de um lado, de outro… e podendo aplicar zoom.
 
+Obs.: Para rodar este projeto, é necessário criar um projeto react, instalar as bibliotecas especificas que pode não estar incluidas no "yarn add" a princípio, e inserir o src neste projeto. 
+no mesmo diretório, então, pode-se rodar o seguinte comando: `npm start`
+
 ### Pirâmide utilizando ThreeJS
 <img src="https://user-images.githubusercontent.com/47664639/156946324-77afda37-d0e4-4133-9852-8d03f70795bd.png" align="center" height="400" width="450">
+Obs: Para rodar localmente basta acessar o caminho do arquivo no browser, que o arquivo roda sem problemas. É necessário, porém, importar o THREEJS.
 
 ### Prisma utilizando ThreeJS
 <img src="https://user-images.githubusercontent.com/47664639/156946424-ce3b95f6-6bd1-4e28-8321-a68c154246e4.png" align="center" height="400" width="450">
+Obs: Para rodar localmente basta acessar o caminho do arquivo no browser, que o arquivo roda sem problemas. É necessário, porém, importar o THREEJS.
 
 
 
