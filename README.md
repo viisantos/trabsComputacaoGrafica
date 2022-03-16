@@ -66,6 +66,9 @@ Obs: Para rodar localmente basta acessar o caminho do arquivo no browser, que o 
 <img src="https://user-images.githubusercontent.com/47664639/156946424-ce3b95f6-6bd1-4e28-8321-a68c154246e4.png" align="center" height="400" width="450">
 Obs: Para rodar localmente basta acessar o caminho do arquivo no browser, que o arquivo roda sem problemas. É necessário, porém, importar o THREEJS.
 
+### Coelho de Stanford - Carga de OBJ via pyOpenGL
+<img src="https://user-images.githubusercontent.com/47664639/158621220-f9ff4b53-e24a-4762-93ff-adb206883aef.png" align="center" height="400" width="450">
+
 
 
 
