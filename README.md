@@ -36,6 +36,10 @@ Coletânea de trabalhos de computação Gráfica 2021.2
 <img src="https://github.com/viisantos/trabsComputacaoGrafica/blob/main/prints_3D_funcionando/tronco_piramide_comentado.png" align="center" height="400" width="400">
 
 ## Fase 2
+### Textura
+### Aplicação de textura de dado no cubo através de mapeamento de textura
+<img src="https://user-images.githubusercontent.com/47664639/158624609-deddc9ac-3469-462b-a25d-2cdf069dbf67.png" align="center" height="400" width="450">
+
 ### Aplicação de textura em esfera utilizando react-fiber-THREEJS
 <img src="https://user-images.githubusercontent.com/47664639/156944340-98dcfa4b-5894-411f-acaa-d67c52b33b54.png" align="center" height="400" width="450">
 Para aplicar a textura de globo terrestre, trabalhamos com uma biblioteca do react chamada “react three fiber” - https://docs.pmnd.rs/react-three-fiber/getting-started/introduction , que adiciona ao react algumas funcionalidades vistas no three js, embora estas funcionalidades sejam expressas no código à moda react. 
@@ -58,6 +62,7 @@ Aplicamos ainda o componente “OrbitControls” que serve justamente para que c
 Obs.: Para rodar este projeto, é necessário criar um projeto react, instalar as bibliotecas especificas que pode não estar incluidas no "yarn add" a princípio, e inserir o src neste projeto. 
 no mesmo diretório, então, pode-se rodar o seguinte comando: `npm start`
 
+### Iluminação
 ### Pirâmide utilizando ThreeJS
 <img src="https://user-images.githubusercontent.com/47664639/156946324-77afda37-d0e4-4133-9852-8d03f70795bd.png" align="center" height="400" width="450">
 Obs: Para rodar localmente basta acessar o caminho do arquivo no browser, que o arquivo roda sem problemas. É necessário, porém, importar o THREEJS.
@@ -66,11 +71,8 @@ Obs: Para rodar localmente basta acessar o caminho do arquivo no browser, que o 
 <img src="https://user-images.githubusercontent.com/47664639/156946424-ce3b95f6-6bd1-4e28-8321-a68c154246e4.png" align="center" height="400" width="450">
 Obs: Para rodar localmente basta acessar o caminho do arquivo no browser, que o arquivo roda sem problemas. É necessário, porém, importar o THREEJS.
 
+### Carga de .Obj
 ### Coelho de Stanford - Carga de OBJ via pyOpenGL
 <img src="https://user-images.githubusercontent.com/47664639/158621220-f9ff4b53-e24a-4762-93ff-adb206883aef.png" align="center" height="400" width="450">
-
-
-
-
 
 p.s : Agradeço aos colegas do curso que disponibilizaram seus repositórios com material de computação gráfica produzido que me auxiliou no desenvolvimento de alguns exemplos 🤝🙃
